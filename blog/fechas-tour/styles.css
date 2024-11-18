@@ -1,0 +1,151 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and Container */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #e6f7ff; /* Sky blue */
+  color: #002c5f; /* Navy */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  width: 90%;
+  margin: 20px auto;
+}
+
+/* Header */
+.header {
+  background-color: #6cabdd; /* Light blue */
+  color: white;
+  padding: 20px 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 1rem;
+}
+
+/* Content */
+.content p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Tour Dates Section */
+.tour-dates {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.date-box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.date-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.date-box h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #002c5f;
+}
+
+.date-box p {
+  font-size: 1rem;
+  color: #004b87; /* Slightly darker blue */
+}
+
+/* Footer */
+.footer {
+  margin-top: 20px;
+  background-color: #002c5f;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  border-radius: 8px;
+}
+
+.footer p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.social-icon {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  border: 1px solid white;
+  padding: 8px 15px;
+  border-radius: 4px;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.social-icon:hover {
+  background-color: white;
+  color: #002c5f;
+}
+
+.back-link {
+  color: #6cabdd;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.2s;
+}
+
+.back-link:hover {
+  color: #004b87;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .header h1 {
+      font-size: 2rem;
+  }
+
+  .content p {
+      font-size: 0.9rem;
+  }
+
+  .date-box h3 {
+      font-size: 1.2rem;
+  }
+
+  .date-box p {
+      font-size: 0.9rem;
+  }
+}
