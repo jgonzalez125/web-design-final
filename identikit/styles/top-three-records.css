@@ -1,0 +1,14 @@
+.video-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ddd;
+}
+
+.video-description {
+  padding: 20px;
+}
+
+iframe {
+  padding-top: 40px;
+}

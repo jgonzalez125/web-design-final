@@ -1,0 +1,28 @@
+.tierlist-record {
+  height: 100px;
+  width: 100px;
+}
+
+.tierlist-s-row {
+  background-color: red;
+}
+
+.tierlist-a-row {
+  background-color: green;
+}
+
+.tierlist-b-row {
+  background-color: orange;
+}
+
+.tierlist-c-row {
+  background-color: yellow;
+}
+
+.tierlist-d-row {
+  background-color: brown;
+}
+
+.tierlist-row-data {
+  background-color: rgba(37, 33, 33, 0.272);
+}
