@@ -1,0 +1,31 @@
+.records-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.record {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.record:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.record h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #002c5f; 
+}
+
+iframe {
+  border-radius: 8px;
+  overflow: hidden;
+}

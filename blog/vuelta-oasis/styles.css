@@ -1,9 +1,8 @@
-/* General Reset and Body Styles (reuse from previous CSS) */
 body {
   margin: 0;
   font-family: 'Arial', sans-serif;
-  background-color: #e6f7ff; /* Sky blue */
-  color: #002c5f; /* Navy */
+  background-color: #e6f7ff; 
+  color: #002c5f; 
   text-align: center;
 }
 
@@ -16,8 +15,6 @@ body {
   color: #002c5f; 
 }
 
-
-/* Header */
 .header {
   background-color: #6cabdd;
   color: white;
@@ -27,22 +24,6 @@ body {
 
 .header h1 {
   font-size: 2rem;
-}
-
-/* Main Content */
-.content {
-  max-width: 800px;
-  margin: 20px auto;
-  padding: 20px;
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  line-height: 1.6;
-}
-
-.content p {
-  font-size: 1rem;
-  margin-bottom: 20px;
 }
 
 .image-gallery {
@@ -61,14 +42,9 @@ body {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .header h1 {
       font-size: 1.5rem;
-  }
-
-  .content p {
-      font-size: 0.9rem;
   }
 
   .image-gallery img {
